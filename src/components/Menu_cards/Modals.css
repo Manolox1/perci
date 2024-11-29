@@ -1,0 +1,27 @@
+.modal-content{
+    width: 50% !important;
+    margin: auto;
+}
+
+.modal-content h4{
+    margin: 10px 0;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.modal-body img{
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 20px;
+}
+
+@media (max-width: 840px) {
+    .modal-content{
+        width: 90% !important;
+        margin: auto;
+    }
+    
+}

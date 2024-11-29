@@ -1,0 +1,10 @@
+.carousel-item img{
+    width: 100vw;
+    height: 90vh;
+}
+
+@media (max-width: 640px) {
+    .carousel-item img{
+        height: 45vh;
+    }
+}

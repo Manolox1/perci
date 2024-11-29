@@ -1,0 +1,52 @@
+.Mapa_nosotros{
+    margin: 100px 0 0 0;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Mapa_nosotros .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Mapa_nosotros .row, .Mapa_nosotros .col{
+    height: 100%;
+}
+.col h1{
+    margin-top: -10px;
+}
+.map{
+    margin-top: 10px;
+    width: 80%;
+    height: 70%;
+    border: 1px solid black;
+}
+
+.nosotros{
+    margin-top: 10px;
+    width: 70%;
+    height: 55%;
+    border: 1px solid black;
+}
+
+.btns{
+    width: 70%;
+    height: 15%;
+    border: 1px solid black;
+}
+
+.Mapa_nosotros .col:first-child{
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+
+.Mapa_nosotros .col:last-child{
+    background-color: rgb(104, 104, 104);
+}
+
+@media (max-width: 640px) {
+    
+}

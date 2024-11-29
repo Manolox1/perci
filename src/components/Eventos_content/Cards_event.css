@@ -1,0 +1,125 @@
+.grid_card_event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding-top: 20px;
+    background-color: aliceblue;
+}
+
+.card_event{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 0 50px;
+    cursor: pointer;
+    overflow: visible;
+}
+
+.card_event div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    transition: 2s ease-in-out;
+    border:inset 10px rgb(102, 102, 102);
+}
+
+.card_event p{
+    padding-top: 30px;
+}
+.card_event .front{
+    background-color: white;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.card_event .front img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+
+.card_event .back{
+    color: white;
+    background-color: rgb(100, 100, 100);
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card_event .giro_back ul, .card_event .back ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.back li{
+    margin: 0;
+    padding: 0;
+}
+
+.card_event .back img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+
+
+.giro_front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.giro_front img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+
+
+.giro_back{  
+    color: rgb(100,100,100);  
+    background-color: white;
+    transform: perspective(500px) rotateY(360deg);
+}
+
+/*Parte trasera de descripcion de la carta*/
+.giro_back h2, .giro_back h3, .back h2, .back h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.giro_back li, .back li{
+    list-style: none;
+    margin: 15px;
+}
+
+
+@media (max-width:480px) {
+    .grid_card_event{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        perspective: 800px;
+    }
+
+    .card_event{
+        width: 280px;
+        height: 370px;
+        position: relative;
+        margin: 50px 50px;
+        cursor: pointer;
+    }
+
+    .card_event .back img{
+        object-fit: contain;
+    }
+
+    .card_event .front img{
+        object-fit: contain;
+    }
+
+    .fron::-webkit-scrollbar {
+        width: 0px;               /* width of the entire scrollbar */
+    }
+}

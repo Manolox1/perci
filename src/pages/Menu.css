@@ -1,0 +1,40 @@
+.select{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-items: center;
+
+}
+
+.card{
+    cursor: pointer;
+}
+
+.btn-reset{
+    margin: 40px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-card{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.card-select{
+    margin: 20px;
+}
+
+.card .sub{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
