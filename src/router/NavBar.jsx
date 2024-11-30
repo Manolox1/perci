@@ -10,10 +10,10 @@ import './NavBar.css'
 function BasicExample() {
     return (
         <>
-            <Navbar expand="lg">
+            <Navbar expand="lg" bg='dark' data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home">Perci-Restaurant</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Brand href="#home">Perci</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className='nav-toogle'/>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link>

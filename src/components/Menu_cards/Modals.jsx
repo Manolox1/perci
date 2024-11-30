@@ -20,13 +20,13 @@ const Modals = ({data, show, onHide, img}) => {
             </Modal.Header>
             <Modal.Body>
                 <img src={img} alt="" />
-                <h4>${data.precio}</h4>
                 <p>
                 {data.ingredientes}
                 </p>
             </Modal.Body>
             <Modal.Footer>
-                <Button onClick={onHide}>Close</Button>
+                <h4>${data.precio}</h4>
+                <Button onClick={onHide} variant='secondary'>Close</Button>
             </Modal.Footer>
             </Modal>
     )
