@@ -31,10 +31,24 @@
     border: 1px solid black;
 }
 
+
 .btns{
-    width: 70%;
-    height: 15%;
-    border: 1px solid black;
+    width: 50%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+
+.btns a{
+    flex: 1;
+    max-width: 25%;
+    height: auto;
+    object-fit: cover;
 }
 
 .Mapa_nosotros .col:first-child{
@@ -48,5 +62,29 @@
 }
 
 @media (max-width: 640px) {
-    
+    .Mapa_nosotros{
+        margin: 100px 0 0 0;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .nosotros{
+        margin-top: 10px;
+        width: 80%;
+        height: 55%;
+        border: 1px solid black;
+    }
+
+    .btns{
+        width: 65%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .btns a{
+        max-width: 20%;
+    }
 }

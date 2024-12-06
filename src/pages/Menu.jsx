@@ -31,7 +31,6 @@ const Menu = () => {
 
     const productosFiltrados = categoriaSeleccionada ? productos.filter(producto => producto.categoria === categoriaSeleccionada):[];
 
-    console.log(productosFiltrados)
     return (
         <>
         <div className="all">

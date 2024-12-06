@@ -6,8 +6,6 @@ import PropTypes from "prop-types";
 const RecImg = ({imgUrl}) => {
     const [imageUrl, setImageUrl] = useState(null);
 
-    console.log(imgUrl)
-
     useEffect(() => {
         const fetchImageUrl = async () => {
         // Reemplaza 'ruta/a/tu/carpeta/imagen.jpg' con la ruta exacta de tu archivo en Firebase Storage
