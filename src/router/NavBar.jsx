@@ -17,7 +17,7 @@ function BasicExample() {
     useEffect(() => {
         const fetchImageUrl = async () => {
             // Reemplaza 'ruta/a/tu/carpeta/imagen.jpg' con la ruta exacta de tu archivo en Firebase Storage
-        const imageRef = ref(storage, `logo-wh.webp`);
+        const imageRef = ref(storage, `Logo.png`);
             
         try {
             const url = await getDownloadURL(imageRef);
@@ -35,7 +35,7 @@ function BasicExample() {
             <Navbar expand="lg" bg='dark' data-bs-theme="dark">
             <Container>
                 <Navbar.Brand href="#home">
-                    <Link to="/"><img src={imageUrl} alt="" /></Link>
+                    <Link to="/"><img src={imageUrl} alt="" width="175" height="60"/></Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className='nav-toogle'/>
                 <Navbar.Collapse id="basic-navbar-nav">
