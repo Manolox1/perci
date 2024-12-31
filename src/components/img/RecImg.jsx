@@ -9,7 +9,7 @@ const RecImg = ({imgUrl}) => {
     useEffect(() => {
         const fetchImageUrl = async () => {
         // Reemplaza 'ruta/a/tu/carpeta/imagen.jpg' con la ruta exacta de tu archivo en Firebase Storage
-        const imageRef = ref(storage, `cajas_img/${imgUrl}.jpeg`);
+        const imageRef = ref(storage, `cajas_img/${imgUrl}.jpg`);
         
         try {
             const url = await getDownloadURL(imageRef);

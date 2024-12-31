@@ -9,7 +9,7 @@ const REcImgSlider = ({imgUrl}) => {
     useEffect(() => {
         const fetchImageUrl = async () => {
             // Reemplaza 'ruta/a/tu/carpeta/imagen.jpg' con la ruta exacta de tu archivo en Firebase Storage
-        const imageRef = ref(storage, `menu_select/${imgUrl}.jpg`);
+        const imageRef = ref(storage, `slider_img/${imgUrl}.jpg`);
             
         try {
             const url = await getDownloadURL(imageRef);

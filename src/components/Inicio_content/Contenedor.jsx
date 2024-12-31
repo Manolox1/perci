@@ -8,7 +8,7 @@ function Contenedor() {
         <div className='opciones'>
             <Row className='g-0'>
                 <Col className='colu'>
-                    <RecImg imgUrl='caja'/>
+                    <RecImg imgUrl='Cervezas'/>
                 </Col>
                 <Col className='colu'>
                     <div className="texto">
@@ -18,7 +18,7 @@ function Contenedor() {
                     </div>
                 </Col>
                 <Col className='colu'>
-                    <RecImg imgUrl='caja'/>
+                    <RecImg imgUrl='PromoMtr'/>
                 </Col>
             </Row>
             <Row className='g-0'>
@@ -30,7 +30,7 @@ function Contenedor() {
                     </div>
                 </Col>
                 <Col className='colu'>
-                    <RecImg imgUrl='caja'/>
+                    <RecImg imgUrl='ParaLlevar'/>
                 </Col>
                 <Col className='colu'>
                     <div className="texto">
@@ -46,7 +46,7 @@ function Contenedor() {
             </Row>
             <Row className='g-0'>
                 <Col className='colu'>
-                    <RecImg imgUrl='caja'/>
+                    <RecImg imgUrl='Postrecitos'/>
                 </Col>
                 <Col className='colu'>
                     <div className="texto">
@@ -54,7 +54,7 @@ function Contenedor() {
                     </div>
                 </Col>
                 <Col className='colu'>
-                    <RecImg imgUrl='caja'/>
+                    <RecImg imgUrl='Trago'/>
                 </Col>
             </Row>
         </div>
