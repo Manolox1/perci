@@ -24,7 +24,7 @@ const Slider = () => {
                 <Carousel.Caption>
                 <h3>Nuestras Viandas</h3>
                 <p>
-                    Tambien ofrecemos, comida para llevar. <br />Vos pedis lo que mas te interese de la carta, Y cuando este listo lo pasas a buscar.
+                    Tambien ofrecemos comida para llevar. Pedi lo que te interese, y luego pasalo a buscar.
                 </p>
                 </Carousel.Caption>
             </Carousel.Item>
