@@ -46,7 +46,7 @@ function Contenedor() {
             </Row>
             <Row className='g-0'>
                 <Col className='colu'>
-                    <RecImg imgUrl='Postrecitos'/>
+                    <RecImg imgUrl='Rogel'/>
                 </Col>
                 <Col className='colu'>
                     <div className="texto">

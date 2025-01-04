@@ -26,7 +26,7 @@ const Menu = () => {
     }, []);
 
 
-    const categorias = ["Burguers","Ensaladas","Entrantes", "Sandwiches","Promos","Revueltos","Bebidas", "Tortas", "Milanesas", "Pastas"];
+    const categorias = ["Postres","Desayunos","Promos","Carnes","Burguers","Ensaladas","Entrantes", "Sandwiches","Revueltos","Bebida","Trago","Cervezas", "Tortas", "Milanesas", "Pastas"];
 
 
     const productosFiltrados = categoriaSeleccionada ? productos.filter(producto => producto.categoria === categoriaSeleccionada):[];
